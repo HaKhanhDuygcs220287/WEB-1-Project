@@ -17,7 +17,6 @@
                 <li><a href="posts.php">post list</a></li>
                 <li><a href="addpost.php">add a new post</a></li>
                 <li><a href="login/Logout.php">Logout</a></li>
-                <li><a href="../../upload.php">upload</a></li>
             </ul>
         </nav>
         <main>
