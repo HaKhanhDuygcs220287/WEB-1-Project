@@ -1,15 +1,5 @@
-<!-- Links for filtering by module -->
-<div>
-    <a href="posts.php">All Modules</a> |
-    <a href="posts.php?moduleid=1">Module 1</a> |
-    <a href="posts.php?moduleid=2">Module 2</a> |
-    <a href="posts.php?moduleid=3">Module 3</a>
-</div>
-
-<hr>
-
-<!-- Display posts -->
-<?php if (!empty($posts) && is_array($posts)): ?>
+<?php 
+if (!empty($posts) && is_array($posts)): ?>
     <?php foreach ($posts as $post): ?>
         <blockquote>
             <!-- Display post text -->
