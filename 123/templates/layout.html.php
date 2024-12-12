@@ -13,7 +13,7 @@
                 <li><a href="posts.php">questions list</a></li>
                <!-- <li><a href="addpost.php">add a new questions</a></li> -->
               <!--  <li><a href="admin/posts.php">Admin</a></li>-->
-                <li><a href="admin/login/Login.html">Admin Login</a></li>
+                <li><a href="admin/login/Login.html">Login</a></li>
             </ul>
         </nav>
         <main>
