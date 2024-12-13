@@ -97,9 +97,9 @@ function allPosts($pdo) {
         $sql = 'SELECT 
                     post.id, 
                     post.posttext, 
-                    people.name AS author, 
-                    people.email AS author_email, 
-                    module.name AS modulename 
+                    people.name AS people, 
+                    people.email AS people_email, 
+                    modulename AS module.name 
                 FROM post 
                 INNER JOIN people ON post.peopleid = people.id 
                 INNER JOIN module ON post.moduleid = module.id';
