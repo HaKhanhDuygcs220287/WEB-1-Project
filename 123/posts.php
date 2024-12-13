@@ -7,7 +7,7 @@ try {
 
     // Initialize variables
     $moduleFilter = null;
-    $sql = 'SELECT post.id, post.posttext, post.postdate, post.post_pic, people.name, people.email, module.name 
+    $sql = 'SELECT post.id, post.posttext, post.postdate, post.post_pic, people.name, people.email, modulename 
             FROM post 
             INNER JOIN people ON post.peopleid = people.id
             INNER JOIN module ON post.moduleid = module.id';
